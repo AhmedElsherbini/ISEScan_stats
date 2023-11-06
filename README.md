@@ -9,7 +9,7 @@
 
 You shall have the .sum files in one folder and these dependencies (pandas, openpyxl ,glob,warnings,and argparse)
 
-Just type this command and you will get two Excel sheets in the same folder of your csv files.
+Just type this command and you will get two Excel sheets in the same folder of your sum files.
 
 "-i /--input_dir"  is your path to the directory of sum files 
 
@@ -30,4 +30,4 @@ Here you have the "frequency" of each family in your genomes
 
 Important: this analysi igores the copy number (nIS)
 
-2- "prefix"_presence absence.xlsx  (The more detailed one).
+2- "prefix"_presence absence.xlsx  (The more detailed one). 
