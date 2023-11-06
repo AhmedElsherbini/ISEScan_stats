@@ -28,6 +28,6 @@ Currently, two Excel files.
 
 Here you have the "frequency" of each family in your genomes
 
-Important: this analysi igores the copy number (nIS)
+Important: this analysi igores the copy number (nIS).
 
 2- "prefix"_presence absence.xlsx  (The more detailed one). 
