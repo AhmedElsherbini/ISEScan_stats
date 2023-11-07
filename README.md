@@ -16,7 +16,8 @@ Just type this command and you will get two Excel sheets in the same folder of y
 "-p /--prefix"  is your preferred prefix for your run
 
 ```python
- python ise_stats.py  -i ./txt -p Corynebacterium
+python ise_stats.py -i summ_folder/ -p trial
+
 ```
 
 **What do you get?**
