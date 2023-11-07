@@ -31,4 +31,4 @@ Here you have the "frequency" of each family in your genomes
 
 Important: this analysi igores the copy number (nIS).
 
-2- "prefix"_presence absence.xlsx  (The more detailed one). 
+2- "prefix"_heatmap.xlsx  (The more detailed one). 
