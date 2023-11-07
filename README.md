@@ -7,18 +7,27 @@
 
 **What do you need?**
 
-You shall have the .sum files in one folder and these dependencies (pandas, openpyxl ,glob,warnings,and argparse)
+You shall have the .sum files in one folder and these dependencies (pandas, openpyxl ,glob, warnings,and argparse)
 
 Just type this command and you will get two Excel sheets in the same folder of your sum files.
 
-"-i /--input_dir"  is your path to the directory of sum files 
+"-i /--input_dir"  is your path to the directory of sum files.
 
 "-p /--prefix"  is your preferred prefix for your run
 
 ```python
-python ise_stats.py -i summ_folder/ -p trial
+python ise_stats.py -i summ_folder/ -p Trial_one
 
 ```
+Important: This analysis **ignores** the copy number (nIS) for your frequency or your heatmap. The quantitative measure is based on the presence of the family or not.
+
+or 
+
+```python
+python ise_stats_with_nis.py -i summ_folder/ -p Trial_two
+```
+Important: This analysis **uses** the copy number (nIS) for your frequency or your heatmap. 
+
 
 **What do you get?**
 
@@ -29,6 +38,5 @@ Currently, two Excel files.
 
 Here you have the "frequency" of each family in your genomes
 
-Important: this analysi igores the copy number (nIS).
 
-2- "prefix"_heatmap.xlsx  (The more detailed one). 
+2- "prefix"_heatmap.xlsx  (The more detailed one).Easy to feed to R heatmaps.
