@@ -15,13 +15,6 @@ Just type this command and you will get two Excel sheets in the same folder of y
 
 "-p /--prefix"  is your preferred prefix for your run
 
-```python
-python ise_stats.py -i summ_folder/ -p Trial_one
-
-```
-Important: This analysis **ignores** the copy number (nIS) for your frequency or your heatmap. The quantitative measure is based on the presence of the family or not.
-
-or 
 
 ```python
 python ise_stats_with_nis.py -i summ_folder/ -p Trial_two
