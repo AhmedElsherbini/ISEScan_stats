@@ -27,7 +27,7 @@ Important: This analysis **uses** the copy number (nIS) for your frequency or yo
 **What do you get?**
 
 
-Currently, two Excel files.
+Currently, two csv files.
 
 1- "prefix"_frequency.xlsx (The general one like a summary of systems per the whole run).
 
