@@ -77,7 +77,7 @@ df10.to_csv("%s_copy_frequency.csv"%(file_name),index=False,sep=',')
 #df2.to_excel("frequency.xlsx",index=False)
 df11 = pd.crosstab(index=df9['Isolate'],columns=df9["Elements"],values=df9['copy'],aggfunc=sum)
 df11 = df11.fillna(0)
-df11.to_csv("%s_heatmap_copy.csv"%(file_name),index=True,sep=',')
+df11.to_csv("%s_heatmap.csv"%(file_name),index=True,sep=',')
 #df11.to_excel("%s_heatmap_copy.csv"%(file_name),index=True)
 
 
