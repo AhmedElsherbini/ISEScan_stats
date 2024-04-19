@@ -41,7 +41,8 @@ file_name = args.prefix
 warnings.filterwarnings("ignore")
 
 ############################################
-#path = "/media/ahmed/CC69-620B6/00_Ph.D/DATA_results/0_accolens_prop_database_work/0_analysis/5_ise/summary_insertion/sum"
+#path = "/home/ahmed/ISEScan_stats/summ_folder/"
+
 #file_name ="hello"
 ############################################
 
@@ -70,11 +71,13 @@ df10 = df1.groupby(by=["Elements"])['copy'].sum().to_frame().reset_index()
 
 df10 = df10.sort_values('copy', ascending=False)
 
-df10.to_excel("%s_copy_frequency.xlsx"%(file_name),index=False)
+#df10.to_excel("%s_copy_frequency.xlsx"%(file_name),index=False)
+df10.to_csv("%s_copy_frequency.csv"%(file_name),index=False,sep=',')
 
 #df2.to_excel("frequency.xlsx",index=False)
 df11 = pd.crosstab(index=df9['Isolate'],columns=df9["Elements"],values=df9['copy'],aggfunc=sum)
 df11 = df11.fillna(0)
-df11.to_excel("%s_heatmap_copy.xlsx"%(file_name),index=True)
+df11.to_csv("%s_heatmap_copy.csv"%(file_name),index=True,sep=',')
+#df11.to_excel("%s_heatmap_copy.csv"%(file_name),index=True)
 
 
