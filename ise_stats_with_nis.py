@@ -72,7 +72,7 @@ df10 = df1.groupby(by=["Elements"])['copy'].sum().to_frame().reset_index()
 df10 = df10.sort_values('copy', ascending=False)
 
 #df10.to_excel("%s_copy_frequency.xlsx"%(file_name),index=False)
-df10.to_csv("%s_copy_frequency.csv"%(file_name),index=False,sep=',')
+df10.to_csv("%s_frequency.csv"%(file_name),index=False,sep=',')
 
 #df2.to_excel("frequency.xlsx",index=False)
 df11 = pd.crosstab(index=df9['Isolate'],columns=df9["Elements"],values=df9['copy'],aggfunc=sum)
