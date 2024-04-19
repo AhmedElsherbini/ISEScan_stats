@@ -27,11 +27,11 @@ Important: This analysis **uses** the copy number (nIS) for your frequency or yo
 **What do you get?**
 
 
-Currently, two csv files.
+Currently, two CSV files.
 
-1- "prefix"_frequency.xlsx (The general one like a summary of systems per the whole run).
+1- "prefix"_frequency.csv (The general one like a summary of systems per the whole run).
 
 Here you have the "frequency" of each family in your genomes
 
 
-2- "prefix"_heatmap.xlsx  (The more detailed one).Easy to feed to R heatmaps.
+2- "prefix"_heatmap.csv  (The more detailed one).Easy to feed to R heatmaps.
