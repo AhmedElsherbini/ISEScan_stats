@@ -11,7 +11,7 @@ This script is working on python3.9
 
 You shall have the .sum files in one folder and these dependencies (pandas, openpyxl ,glob, warnings,and argparse)
 
-Just type this command and you will get two Excel sheets in the same folder of your sum files.
+Just type this command and you will get two CSV sheets in the same folder of your sum files.
 
 "-i /--input_dir"  is your path to the directory of sum files.
 
