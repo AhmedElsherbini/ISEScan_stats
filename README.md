@@ -1,5 +1,5 @@
 # ISEScan_stats
-
+**Kindly if you find this repo useful for your work, cite & star this repo**
 **What is this script?**
 
 [ISEScan](https://github.com/xiezhq/ISEScan#isescan--) is a great tool for insertion elements locator. However, if you used it for many genomes, and you want to summarize the many basic summary (.fna.sum) stats into an overview CSV sheet, then this simple Python3 script shall do this job.
